@@ -87,3 +87,6 @@
 // console.log(names);
 
 //indexof
+// let text = "Kai Hal Ha Ap ka "
+// let result = text.indexOf("Theek")
+// console.log(result);
