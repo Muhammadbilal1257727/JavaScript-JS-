@@ -1,5 +1,5 @@
 // There are 12 type of Array Function
-
+//Array is Always Start From 0
 
 //push
 //pop
@@ -46,3 +46,18 @@
 // let names = ["Bilal","Hassan","Huzafia","Mowyia","Ahmed"]
 // names.splice(3,0,"Salman , Saad")
 // console.log(names);
+
+//slice
+// let names = ["Bilal","Hassan","Huzafia","Mowyia","Ahmed","Salman","Saad"]
+// const all= names.slice(1,4)
+// console.log(all);
+
+//split
+// let text = "KaiHalHaApka??"
+// const myArray = text.split("");
+// console.log(myArray);
+
+//join
+let names = ["Bilal","Hassan","Huzafia","Mowyia","Ahmed","Salman","Saad"]
+names.join()
+console.log(names);
