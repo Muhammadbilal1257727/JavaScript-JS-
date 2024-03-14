@@ -40,3 +40,9 @@
 // let names =["Bilal","Hassan","Huzafia"]
 // names.shift()
 // console.log(names);
+
+
+//splice
+// let names = ["Bilal","Hassan","Huzafia","Mowyia","Ahmed"]
+// names.splice(3,0,"Salman , Saad")
+// console.log(names);
