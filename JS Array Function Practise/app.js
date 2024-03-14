@@ -25,6 +25,18 @@
 
 
 // Pop
-let names = ["Bilal","Hassan","Huzafia"]
-names.pop("Mowyia")
-console.log(names)
+// let names = ["Bilal","Hassan","Huzafia"]
+// names.pop()
+// console.log(names)
+
+
+// Unshift
+// let names = ["Bilal","Hassan","Huzafia"]
+// names.unshift("Mowyia")
+// console.log(names);
+
+
+//Shift
+// let names =["Bilal","Hassan","Huzafia"]
+// names.shift()
+// console.log(names);
