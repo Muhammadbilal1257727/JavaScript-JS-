@@ -90,3 +90,15 @@
 // let text = "Kai Hal Ha Ap ka "
 // let result = text.indexOf("Theek")
 // console.log(result);
+
+
+let names = ["Bilal","Hassan","Huzafia","Mowyia","Ahmed","Salman","Saad"]
+let input = document.querySelector("#input")
+let head = document.querySelector("h2")
+
+function result() {
+    console.log(input.value);
+}
+
+
+
