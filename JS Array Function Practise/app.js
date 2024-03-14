@@ -58,6 +58,32 @@
 // console.log(myArray);
 
 //join
-let names = ["Bilal","Hassan","Huzafia","Mowyia","Ahmed","Salman","Saad"]
-names.join()
-console.log(names);
+// let names = ["Bilal","Hassan","Huzafia","Mowyia","Ahmed","Salman","Saad"]
+// const all =names.join("&")
+// console.log(all);
+
+
+//concat
+// let text1 = "Bilal"
+// let text2 = "Khan"
+// let result = text1.concat(text2)
+// console.log(result);
+
+// let text1 = "Bilal"
+// let text2 = "Khan"
+// let result = text1.concat(" " ,text2)
+// console.log(result);
+
+
+//sort
+// let names =["Bilal","Hassan","Huzafia","Mowyia","Ahmed","Salman","Saad"]
+// names.sort()
+// console.log(names)
+
+
+//reverse
+// let names = ["Bilal","Hassan","Huzafia","Mowyia","Ahmed","Salman","Saad"]
+// names.reverse()
+// console.log(names);
+
+//indexof
