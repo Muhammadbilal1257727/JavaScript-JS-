@@ -92,13 +92,40 @@
 // console.log(result);
 
 
+//includes
+// let names = ["Bilal","Hassan","Huzafia","Mowyia","Ahmed","Salman","Saad"]
+// let result = names.includes("Bilal")
+// console.log(result);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let names = ["Bilal","Hassan","Huzafia","Mowyia","Ahmed","Salman","Saad"]
 let input = document.querySelector("#input")
 let head = document.querySelector("h2")
 
-function result() {
+function result(){
     console.log(input.value);
+    if(names.includes(input.value)){
+        console.log("Ap Pass Ha");
+        head.innerHTML=`${input.value}Ap Pass Ho `
+    }else{
+        console.log("Kuyn Nahi Ho Rahi Parhi");
+        head.innerHTML=`${input.value}Kuyn Nahi Ho Rahi Parhi`
+    }
+    input.value = ''
 }
-
 
 
