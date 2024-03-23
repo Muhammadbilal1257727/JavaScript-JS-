@@ -1,15 +1,10 @@
-var A = ["cake", "apple pie", "cookie", "chips", "patties"];
-function searchItem(item) {
-    for (var i = 0; i < A.length; i++) {
-        if (A[i] === item) {
-            return true;
-        }
+var A = [24, 53, 78, 91, 12];
+var largest = A[0];
+
+for (var i = 1; i < A.length; i++) {
+    if (A[i] > largest) {
+        largest = A[i];
     }
-    return false;
 }
-var userInput = prompt("Enter the item to search:");
-if (searchItem(userInput)) {
-    alert("Yes, '" + userInput + "' is found in the list.");
-} else {
-    alert("No, '" + userInput + "' is not found in the list.");
-}
+
+document.write("The largest number in the array is: " + largest);
